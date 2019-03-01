@@ -1,7 +1,7 @@
 \documentclass{report}
 
 \title{\Large{\textbf{TMA template file}}}
-\author{Firstname lastname {\textbf{OU ID}}}
+\author{First-name Surname {\textbf{OU ID \#}}}
 \date{\today}
 
 %\usepackage[margin=0.5in]{geometry}
@@ -100,6 +100,7 @@ To draw a parabola, state the co-ordinates as found in fig:\ref{Example parabola
 \label{Example parabola drawing}
 \end{figure}
 
+\subsection{inequalities}
 An example of an inequality may be found in fig:\ref{example inequality}
 
 \begin{figure}[ht]
@@ -108,9 +109,9 @@ An example of an inequality may be found in fig:\ref{example inequality}
 \draw[-latex] (-1,0) -- (9,0) ;
 \foreach \x in  {0,1,2,3,4,5,6,7,8} \draw[shift={(\x,0)},color=black] (0pt,3pt) -- (0pt,-3pt);
 \foreach \x in {0,1,2,3,4,5,6,7,8} \draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] {$\x$};
-\draw[*-o] (2.98,0) -- (5.02,0);
+\draw[*-o] (2.92,0.5) -- (5.08,0.5);
 % * means includes (full circle), and o means excludes (empty circle)
-\draw[very thick    ] (2.98,0) -- (5.02,0);
+\draw[very thick    ] (2.98,0.5) -- (5.02,0.5);
 \end{tikzpicture}	
 \caption{example inequality}
 \label{example inequality}
@@ -130,6 +131,8 @@ An example of an inequality may be found in fig:\ref{example inequality}
 \end{tikzpicture}	
 	
 \end{comment}
+
+\subsection{factor trees}
 
 An example of simple factor tree can be seen on the pages below in fig:\ref{Factor tree simple}
 \begin{figure}[!hb]
@@ -187,9 +190,47 @@ An example of an elaborated factor tree can be seen below in fig:\ref{Factor tre
 
 \clearpage
 
+\subsection{Graphs}
+an example of a graph may be seen in \ref{A Graph}
+
+
+\begin{tikzpicture}
+
+\begin{axis}[%
+%state where you want your legend to go setting below result in bottom center
+legend style={
+            at={(0.1,-0.2),anchor=north}
+        },
+% State the axis scale        
+compat=newest,
+scale only axis,
+xmin=0, xmax=105,
+xlabel={\text{X Lable}},
+xmajorgrids,
+ymin=0, ymax=50,
+ylabel={\textbf{Y Lable}},
+ymajorgrids,
+axis lines=left,
+title={ },
+legend style={nodes=right}]
+% Set up your data set
+\addplot [
+color=black,
+solid
+] coordinates {(0,0) (70,50)};
+\addlegendentry{\textbf{A legend entry}};
+% Set up your data set
+\addplot[mark=o,mark options={solid},blue,thick,dashed] coordinates {
+        (10,15)	(20,20) (30,25) (50,30) (65, 40) (90,40)};
+    \addlegendentry{another datapoint}
+\end{axis}
+\end{tikzpicture}
+\label{A Graph} 
+\clearpage
+
 \section{Unit x}
 
-\subsection{Stratagy - details}
+\subsection{Strategy - details}
 
 \subsection{Activity - details}
 
@@ -200,5 +241,9 @@ An example of an elaborated factor tree can be seen below in fig:\ref{Factor tre
 \item[ii] specifics about the question
 \item[iii] specifics about the question
 \end{itemize}
+
+\clearpage
+
+
 
 \end{document}
