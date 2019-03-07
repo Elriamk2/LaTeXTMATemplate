@@ -31,6 +31,7 @@
 %usepackage{xltxtra,xunicode}
 \usepackage{soul,xcolor}
 \makeindex
+\usepackage{enumerate}
 
 \pgfplotsset{compat=1.16}
 
@@ -51,9 +52,10 @@
 \lhead{MU123 19B}
 \rhead{forename surname OU ID}
 \rfoot{Page \thepage}
+\lfoot{TMA \#}
 
 %start working after this
-\chapter{Examples}
+\chapter{Chapter 1 Drawing Examples}
 
 \subsection*{Source code here}
 
@@ -240,9 +242,13 @@ Col 4d & Col 4d \\
 \end{tabular}
 \end{center}
 
+\begin{table}
+
 \begin{center}
 \begin{tabular}{|c|c|c|}
 \hline
+\multicolumn{1}{|c|}{} & \multicolumn{2}{c|}{dataset} \\
+					\cline{2-3}
 Col 1a & Col 2a & Col 3a \\
 \hline
 Col 2b & Col 2b & Col 3b \\
@@ -253,8 +259,11 @@ Col 4d & Col 4d & Col 3d \\
 \hline
 \end{tabular}
 \end{center}
+\label{table2}
+\caption{This is a more detailed column}
+\end{table}
 
-\chapter{Chapter \#}
+\chapter{Chapter 2 formating}
 \section{Unit x}
 
 \subsection{Strategy - details}
@@ -268,9 +277,39 @@ Col 4d & Col 4d & Col 3d \\
 \item[ii] specifics about the question
 \item[iii] specifics about the question
 \end{itemize}
-
 \clearpage
 
+\section{Alternative markup}
+
+\begin{enumerate}
+	\item Arabic
+	\item Arabic
+	\begin{enumerate}
+		\item Alpha
+			\begin{enumerate}
+				\item Roman
+			\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\section{set enumerate count}
+\begin{enumerate}[4]
+	\item arabic
+	\begin{enumerate}
+		\item alpha
+			\begin{enumerate}
+				\item roman
+				\item next item
+			\end{enumerate}
+		\item next alpha			
+	\end{enumerate}
+	\item next arabic
+\end{enumerate}
+
+N.B. this does not create a Table Of Contents, you would need to use "section" to build this out, additionally the enumerate value will overide the count see difference between the first and second example.
+
+The counter will not be printed warnings refer to the enumerate value being specified.
+\clearpage
 
 
 \end{document}
