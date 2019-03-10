@@ -196,39 +196,43 @@ An example of an elaborated factor tree can be seen below in fig:\ref{Factor tre
 \subsection{Graphs}
 an example of a graph may be seen in \ref{A Graph}
 
+\begin{figure}[!h]
+	\begin{tikzpicture}
 
-\begin{tikzpicture}
-
-\begin{axis}[%
-%state where you want your legend to go setting below result in bottom center
-legend style={
+	\begin{axis}[%
+	%state where you want your legend to go setting below result in bottom center
+	legend style={
             at={(0.1,-0.2),anchor=north}
         },
-% State the axis scale        
-compat=newest,
-scale only axis,
-xmin=0, xmax=105,
-xlabel={\text{X Lable}},
-xmajorgrids,
-ymin=0, ymax=50,
-ylabel={\textbf{Y Lable}},
-ymajorgrids,
-axis lines=left,
-title={ },
-legend style={nodes=right}]
-% Set up your data set
-\addplot [
-color=black,
-solid
-] coordinates {(0,0) (70,50)};
-\addlegendentry{\textbf{A legend entry}};
-% Set up your data set
-\addplot[mark=o,mark options={solid},blue,thick,dashed] coordinates {
+	% State the axis scale        
+	compat=newest,
+	scale only axis,
+	xmin=0, xmax=105,
+	xlabel={\text{X Lable}},
+	xmajorgrids,
+	ymin=0, ymax=50,
+	ylabel={\textbf{Y Lable}},
+	ymajorgrids,
+	axis lines=left,
+	title={ },
+	legend style={nodes=right}]
+	% Set up your data set
+	\addplot [
+		color=black,
+		solid
+	] coordinates {(0,0) (70,50)};
+	\addlegendentry{\textbf{A legend entry}};
+	% Set up your data set
+	\addplot[mark=o,mark options={solid},blue,thick,dashed] coordinates {
         (10,15)	(20,20) (30,25) (50,30) (65, 40) (90,40)};
     \addlegendentry{another datapoint}
-\end{axis}
-\end{tikzpicture}
-\label{A Graph} 
+	\end{axis}
+	\end{tikzpicture}
+	%What I tell you right now may save you hours of extensive debugging, cursing under your breath, commenting out custom code dealing with figure layout and much frustration. Whenever you use figures, always (and I mean ALWAYS EVER FOREVER ALWAYS) put \caption first, and \label second like this:
+	\caption{example graph}
+	\label{A Graph} 
+\end{figure}
+
 \clearpage
 
 \subsection{Tables}
@@ -279,21 +283,27 @@ Col 4d & Col 4d & Col 3d \\
 \end{itemize}
 \clearpage
 
-\section{Alternative markup}
+\section{Alternative markup} %useful if writing up subchapters or questions, will not update the TOC, alghou this can be done manually. I am not going into is as I have no intention on doing so in this iteration.
 
 \begin{enumerate}
 	\item Arabic
 	\item Arabic
-	\begin{enumerate}
+	\begin{enumerate}[(a)]% square brackets define the itemlist type and format this example includes brackets
 		\item Alpha
-			\begin{enumerate}
+			\begin{enumerate}[(i)]
 				\item Roman
 			\end{enumerate}
+		\item next sub section
+			\begin{enumerate}[(i)]
+				\item example 1
+				\item anonther part question answer or referance
+			\end{enumerate}	
 	\end{enumerate}
+	\item referancing another subsection Figure:\ref{A Graph}
 \end{enumerate}
 
 \section{set enumerate count}
-\begin{enumerate}[4]
+\begin{enumerate}[4] % this overrides the enumerate count, this will cause an error "The counter will not be printed. try format documents to autocount as this makes indexing and referancing easier see "https://tex.stackexchange.com/questions/119719/add-an-item-in-the-table-of-contents" for more info
 	\item arabic
 	\begin{enumerate}
 		\item alpha

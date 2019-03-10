@@ -1,0 +1,798 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.13)  10 MAR 2019 11:55
+entering extended mode
+**./NotesTemplate.tex
+(NotesTemplate.tex
+LaTeX2e <2018-12-01>
+(F:\LatexSource\tex/latex/base\report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(F:\LatexSource\tex/latex/base\size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(F:\LatexSource\tex/latex/pgfplots\pgfplots.sty
+(F:\LatexSource\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+(F:\LatexSource\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(F:\LatexSource\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(F:\LatexSource\tex/latex/graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(F:\LatexSource\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(F:\LatexSource\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(F:\LatexSource\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(F:\LatexSource\tex/latex/pgf/frontendlayer\tikz.sty
+(F:\LatexSource\tex/latex/pgf/basiclayer\pgf.sty
+(F:\LatexSource\tex/latex/pgf/utilities\pgfrcs.sty
+(F:\LatexSource\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks15
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(F:\LatexSource\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(F:\LatexSource\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box27
+
+(F:\LatexSource\tex/latex/ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(F:\LatexSource\tex/generic/pgf/utilities\pgfrcs.code.tex
+(F:\LatexSource\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/latex/pgf/basiclayer\pgfcore.sty
+(F:\LatexSource\tex/latex/pgf/systemlayer\pgfsys.sty
+(F:\LatexSource\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+
+(F:\LatexSource\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks18
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count89
+\c@pgf@countb=\count90
+\c@pgf@countc=\count91
+\c@pgf@countd=\count92
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+\pgf@sys@id@count=\count93
+
+(F:\LatexSource\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(F:\LatexSource\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+)))
+(F:\LatexSource\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count94
+\pgfsyssoftpath@bigbuffer@items=\count95
+)
+(F:\LatexSource\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(F:\LatexSource\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(F:\LatexSource\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/math\pgfmath.code.tex
+(F:\LatexSource\tex/generic/pgf/math\pgfmathcalc.code.tex
+(F:\LatexSource\tex/generic/pgf/math\pgfmathutil.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count96
+\pgfmath@box=\box28
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(F:\LatexSource\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.t
+ex))) (F:\LatexSource\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count97
+))
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count98
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen134
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen138
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count99
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfexternal@startupbox=\box32
+))
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(F:\LatexSource\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfnodeparttextbox=\box33
+)
+(F:\LatexSource\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(F:\LatexSource\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+(F:\LatexSource\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+))
+(F:\LatexSource\tex/latex/pgf/utilities\pgffor.sty
+(F:\LatexSource\tex/latex/pgf/utilities\pgfkeys.sty
+(F:\LatexSource\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(F:\LatexSource\tex/latex/pgf/math\pgfmath.sty
+(F:\LatexSource\tex/generic/pgf/math\pgfmath.code.tex))
+(F:\LatexSource\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+))
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count100
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box34
+\tikz@figbox@bg=\box35
+\tikz@tempbox=\box36
+\tikz@tempbox@bg=\box37
+\tikztreelevel=\count101
+\tikznumberofchildren=\count102
+\tikznumberofcurrentchild=\count103
+\tikz@fig@count=\count104
+
+(F:\LatexSource\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count105
+\pgfmatrixcurrentcolumn=\count106
+\pgf@matrix@numberofcolumns=\count107
+)
+\tikz@expandcount=\count108
+
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths
+.code.tex
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))) (F:\LatexSource\tex/generic/pgfplots\pgfplots.code.tex
+(F:\LatexSource\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks27
+\t@pgfplots@tokb=\toks28
+\t@pgfplots@tokc=\toks29
+\pgfplots@tmpa=\dimen151
+\c@pgfplots@coordindex=\count109
+\c@pgfplots@scanlineindex=\count110
+
+(F:\LatexSource\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
+(F:\LatexSource\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
+(F:\LatexSource\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.c
+ode.tex (F:\LatexSource\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(F:\LatexSource\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgflibra
+ryfpu.code.tex)
+(F:\LatexSource\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfmathf
+loat.code.tex
+\c@pgfmathroundto@lastzeros=\count111
+)) (F:\LatexSource\tex/generic/pgfplots/util\pgfplotsutil.code.tex
+(F:\LatexSource\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.t
+ex)
+(F:\LatexSource\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.cod
+e.tex)
+(F:\LatexSource\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count112
+)
+(F:\LatexSource\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex)
+(F:\LatexSource\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count113
+\t@pgfplotstable@a=\toks30
+)
+(F:\LatexSource\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex)
+(F:\LatexSource\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
+(F:\LatexSource\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex))
+(F:\LatexSource\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
+(F:\LatexSource\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.t
+ex
+\c@pgfplotslibrarysurf@no=\count114
+
+(F:\LatexSource\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-
+pdftex.def)))
+(F:\LatexSource\tex/generic/pgfplots/util\pgfplotscolormap.code.tex
+(F:\LatexSource\tex/generic/pgfplots/util\pgfplotscolor.code.tex))
+(F:\LatexSource\tex/generic/pgfplots\pgfplotsstackedplots.code.tex)
+(F:\LatexSource\tex/generic/pgfplots\pgfplotsplothandlers.code.tex
+(F:\LatexSource\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
+(F:\LatexSource\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex)))
+(F:\LatexSource\tex/generic/pgfplots\pgfplots.scaling.code.tex)
+(F:\LatexSource\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex)
+(F:\LatexSource\tex/generic/pgfplots\pgfplots.errorbars.code.tex)
+(F:\LatexSource\tex/generic/pgfplots\pgfplots.markers.code.tex)
+(F:\LatexSource\tex/generic/pgfplots\pgfplotsticks.code.tex)
+(F:\LatexSource\tex/generic/pgfplots\pgfplots.paths.code.tex)
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorat
+ions.code.tex
+(F:\LatexSource\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen152
+\pgfdecoratedremainingdistance=\dimen153
+\pgfdecoratedinputsegmentcompleteddistance=\dimen154
+\pgfdecoratedinputsegmentremainingdistance=\dimen155
+\pgf@decorate@distancetomove=\dimen156
+\pgf@decorate@repeatstate=\count115
+\pgfdecorationsegmentamplitude=\dimen157
+\pgfdecorationsegmentlength=\dimen158
+)
+\tikz@lib@dec@box=\box38
+)
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorat
+ions.pathmorphing.code.tex
+(F:\LatexSource\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pat
+hmorphing.code.tex))
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorat
+ions.pathreplacing.code.tex
+(F:\LatexSource\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pat
+hreplacing.code.tex))
+\pgfplots@numplots=\count116
+\pgfplots@xmin@reg=\dimen159
+\pgfplots@xmax@reg=\dimen160
+\pgfplots@ymin@reg=\dimen161
+\pgfplots@ymax@reg=\dimen162
+\pgfplots@zmin@reg=\dimen163
+\pgfplots@zmax@reg=\dimen164
+)
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmar
+ks.code.tex
+File: tikzlibraryplotmarks.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(F:\LatexSource\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(F:\LatexSource\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count117
+\calc@Bcount=\count118
+\calc@Adimen=\dimen165
+\calc@Bdimen=\dimen166
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count119
+\calc@Cskip=\skip45
+)
+(F:\LatexSource\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(F:\LatexSource\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(F:\LatexSource\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(F:\LatexSource\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen167
+))
+(F:\LatexSource\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen168
+)
+(F:\LatexSource\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count120
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count121
+\leftroot@=\count122
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count123
+\DOTSCASE@=\count124
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box39
+\strutbox@=\box40
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count125
+\c@MaxMatrixCols=\count126
+\dotsspace@=\muskip10
+\c@parentequation=\count127
+\dspbrk@lvl=\count128
+\tag@help=\toks32
+\row@=\count129
+\column@=\count130
+\maxfields@=\count131
+\andhelp@=\toks33
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks34
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count132
+\l_MT_multwidth_dim=\dimen176
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen177
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen178
+\l_MT_above_intertext_sep=\dimen179
+\l_MT_below_intertext_sep=\dimen180
+\l_MT_above_shortintertext_sep=\dimen181
+\l_MT_below_shortintertext_sep=\dimen182
+)
+(F:\LatexSource\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+\c@theorem=\count133
+\c@proof=\count134
+
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.
+code.tex
+File: tikzlibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+ (F:\LatexSource\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\arrowsize=\dimen183
+))
+(F:\LatexSource\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(F:\LatexSource\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypattern
+s.code.tex
+File: tikzlibrarypatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(F:\LatexSource\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(F:\LatexSource\tex/latex/bigints\bigints.sty
+Package: bigints 2010/02/15 Writing big integrals
+Package bigints Info: This is Bigints by Merciadri Luca. on input line 5.
+)
+(F:\LatexSource\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2018/12/07 version 4.15 text color boxes
+
+(F:\LatexSource\tex/latex/tools\verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks36
+\verbatim@line=\toks37
+\verbatim@in@stream=\read2
+)
+(F:\LatexSource\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(F:\LatexSource\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(F:\LatexSource\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count135
+)
+\tcb@titlebox=\box41
+\tcb@upperbox=\box42
+\tcb@lowerbox=\box43
+\tcb@phantombox=\box44
+\c@tcbbreakpart=\count136
+\c@tcblayer=\count137
+\tcolorbox@number=\count138
+\tcb@temp=\box45
+\tcb@temp=\box46
+\tcb@temp=\box47
+\tcb@temp=\box48
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+(F:\LatexSource\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen184
+\lightrulewidth=\dimen185
+\cmidrulewidth=\dimen186
+\belowrulesep=\dimen187
+\belowbottomsep=\dimen188
+\aboverulesep=\dimen189
+\abovetopsep=\dimen190
+\cmidrulesep=\dimen191
+\cmidrulekern=\dimen192
+\defaultaddspace=\dimen193
+\@cmidla=\count139
+\@cmidlb=\count140
+\@aboverulesep=\dimen194
+\@belowrulesep=\dimen195
+\@thisruleclass=\count141
+\@lastruleclass=\count142
+\@thisrulewidth=\dimen196
+)
+(F:\LatexSource\tex/latex/tools\array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box49
+\extrarowheight=\dimen198
+\NC@list=\toks38
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box50
+)
+(F:\LatexSource\tex/generic/pgfplots/libs\tikzlibrarypgfplots.fillbetween.code.
+tex
+(F:\LatexSource\tex/generic/pgfplots/pgfcontrib\tikzlibraryfillbetween.code.tex
+
+(F:\LatexSource\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryinterse
+ctions.code.tex
+(F:\LatexSource\tex/generic/pgf/libraries\pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count143
+))
+(F:\LatexSource\tex/generic/pgfplots/pgfcontrib\tikzlibrarydecorations.softclip
+.code.tex
+(F:\LatexSource\tex/generic/pgfplots/pgfcontrib\pgflibraryfillbetween.code.tex
+(F:\LatexSource\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgflibra
+ryintersections.code.tex
+\pgf@intersect@solutions=\count144
+))))
+(F:\LatexSource\tex/generic/pgfplots/libs\tikzlibrarypgfplots.decorations.softc
+lip.code.tex)) (F:\LatexSource\tex/latex/index\index.sty
+Package: index 2004/01/20 v4.2beta Improved index support (dmj)
+\@indexbox=\insert199
+\indexproofstyle=\toks39
+)
+(F:\LatexSource\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(F:\LatexSource\tex/latex/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks40
+\SOUL@lasttoken=\toks41
+\SOUL@cmds=\toks42
+\SOUL@buffer=\toks43
+\SOUL@token=\toks44
+\SOUL@spaceskip=\skip61
+\SOUL@ttwidth=\dimen256
+\SOUL@uldp=\dimen257
+\SOUL@ulht=\dimen258
+)
+\idxtitle@default=\toks45
+\tf@default=\write6
+\openout6 = `NotesTemplate.idx'.
+
+Package index Info: Writing index file NotesTemplate.idx on input line 33.
+
+(F:\LatexSource\tex/latex/tools\enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks46
+) (NotesTemplate.aux)
+\openout1 = `NotesTemplate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+(F:\LatexSource\tex/context/base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen259
+\scratchbox=\box51
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen260
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks48
+) (F:\LatexSource\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(F:\LatexSource\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(F:\LatexSource\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(F:\LatexSource\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(F:\LatexSource\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(F:\LatexSource\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(F:\LatexSource\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(F:\LatexSource\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(F:\LatexSource\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(F:\LatexSource\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(F:\LatexSource\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+(F:\LatexSource\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+
+(F:\LatexSource\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/totsi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (NotesTempl
+ate.toc)
+\tf@toc=\write7
+\openout7 = `NotesTemplate.toc'.
+
+ [1
+
+]
+Chapter 1.
+[1
+
+] [2] [3]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+ [4
+
+] [5
+
+]
+Chapter 2.
+[6
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is: 4 on input line 306.
+
+[7
+
+] (NotesTemplate.aux) ) 
+Here is how much of TeX's memory you used:
+ 27112 strings out of 492946
+ 687461 string characters out of 3135527
+ 855788 words of memory out of 3000000
+ 30533 multiletter control sequences out of 15000+200000
+ 13028 words of font info for 50 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 110i,19n,140p,845b,2498s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/LatexSource/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b><F:/LatexSource/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/LatexSource/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><F:/LatexSource/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><F:/LatexSource/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/L
+atexSource/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/LatexSource/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><F:/LatexSource/fonts/type1/public/amsfonts/latxfo
+nt/line10.pfb>
+Output written on NotesTemplate.pdf (9 pages, 104533 bytes).
+PDF statistics:
+ 67 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
