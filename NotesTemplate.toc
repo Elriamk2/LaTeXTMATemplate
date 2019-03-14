@@ -12,3 +12,6 @@
 \contentsline {subsubsection}{(a) - question details}{6}% 
 \contentsline {section}{\numberline {2.2}Alternative markup}{7}% 
 \contentsline {section}{\numberline {2.3}set enumerate count}{7}% 
+\contentsline {chapter}{\numberline {3}Notes Markups}{8}% 
+\contentsline {subsection}{\numberline {3.0.1}Maths markups}{8}% 
+\contentsline {subsubsection}{Formatting the working out}{8}% 
