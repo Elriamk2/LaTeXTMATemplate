@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass[fleqn]{report}
 
 \title{\Large{\textbf{TMA template file}}}
 \author{First-name Surname {\textbf{OU ID \#}}}
@@ -34,6 +34,9 @@
 \usepackage{enumerate}
 
 \pgfplotsset{compat=1.16}
+
+%use the following to set your Math indent length, note the {#cm} sets the distance and you must have defined \documentclass[fleqn]{*}
+\setlength{\mathindent}{1cm}
 
 \begin{document}
 
@@ -321,5 +324,25 @@ N.B. this does not create a Table Of Contents, you would need to use "section" t
 The counter will not be printed warnings refer to the enumerate value being specified.
 \clearpage
 
+\chapter{Notes Markups}
+
+\subsection{Maths markups}
+Description of a fraction including subscripts useful for Graph calculations etc
+Gradient = {\Large $\frac{rise}{run} = \frac{y_2-y_1}{x_2-x_1}$}
+
+\subsubsection{Formatting the working out}
+\begin{equation}
+\begin{split}
+f(x,y) & =a\\
+       & =b\\
+       &\phantom{=}\, +c\\
+       &\phantom{=}\, +d.
+\end{split}
+\end{equation}
+
+\noindent Text
+\begin{equation*}
+y = ax + b
+\end{equation*}
 
 \end{document}
