@@ -3,7 +3,7 @@
 \title{\Large{\textbf{TMA template file}}}
 \author{First-name Surname {\textbf{OU ID \#}}}
 \date{\today}
-
+%Initial base packages I aquired from another maths template
 %\usepackage[margin=0.5in]{geometry}
 \usepackage{pgfplots}
 \usepackage{mathtools}
@@ -22,6 +22,9 @@
 \usepackage{booktabs,array}
 \usepgfplotslibrary{fillbetween}
 
+\usepackage{setspace}
+
+%optional packages
 \usepackage{amsmath}
 \usepackage{index}
 \usepackage{fancyhdr}
@@ -30,12 +33,17 @@
 %\usepackage{pifont}
 %usepackage{xltxtra,xunicode}
 \usepackage{soul,xcolor}
-\makeindex
 \usepackage{enumerate}
+\usepackage{gensymb}
 
+%create index page
+\makeindex
+
+%Set up pgf version compatability, uses stable build
 \pgfplotsset{compat=1.16}
 
-%use the following to set your Math indent length, note the {#cm} sets the distance and you must have defined \documentclass[fleqn]{*}
+% set up formatting options
+\setstretch{2}
 \setlength{\mathindent}{1cm}
 
 \begin{document}
@@ -58,6 +66,7 @@
 \lfoot{TMA \#}
 
 %start working after this
+
 \chapter{Chapter 1 Drawing Examples}
 
 \subsection*{Source code here}
@@ -319,7 +328,7 @@ Col 4d & Col 4d & Col 3d \\
 	\item next arabic
 \end{enumerate}
 
-N.B. this does not create a Table Of Contents, you would need to use "section" to build this out, additionally the enumerate value will overide the count see difference between the first and second example.
+N.B. this does not create a Table Of Contents, you would need to use "section" to build this out, additionally the enumerate value will overide the count see difference between the first and second example. \vspace{\baselineskip}
 
 The counter will not be printed warnings refer to the enumerate value being specified.
 \clearpage
@@ -333,16 +342,39 @@ Gradient = {\Large $\frac{rise}{run} = \frac{y_2-y_1}{x_2-x_1}$}
 \subsubsection{Formatting the working out}
 \begin{equation}
 \begin{split}
-f(x,y) & =a\\
-       & =b\\
-       &\phantom{=}\, +c\\
+	f(x,y) & =a\\
+       & = b \\[1ex]
+       &\phantom{=}\, +c \\[2ex]
        &\phantom{=}\, +d.
 \end{split}
 \end{equation}
 
-\noindent Text
-\begin{equation*}
-y = ax + b
+\noindent Text % to comment out the Indexing of the forumla use an * in the equation node
+\begin{equation*} 
+	y = ax + b
 \end{equation*}
+
+$$ abc $$
+
+\subsubsection{Maths symbols}
+Source @online{•,
+author = {Wal­ter Sch­midt},
+title = {CTAN},
+year = {2003},
+url = {https://ctan.org/pkg/gensymb?lang=en},
+OPTurldate = {23/03/2019},
+}
+
+
+\begin{enumerate}
+	\item Using degrees $20 \degree F$
+	\item Celsius $ \celsius $
+% Needs a macro defined	- \item $\pert­hou­sand$
+% Needs a macro defined - \item $\micro$
+	\item $\ohm$
+	\item The sum of a triangle is 180$^{\circ}$
+\end{enumerate}
+
+
 
 \end{document}
