@@ -29,6 +29,8 @@
 \usepackage{index}
 \usepackage{fancyhdr}
 %\usepackage{tikzpicture}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
 \usepackage{pgfplots}
 \usepgfplotslibrary{statistics}
 %\usepackage{pifont}
@@ -342,12 +344,12 @@ Col 4d & Col 4d & Col 3d \\
 \end{itemize}
 \clearpage
 
-\section{Alternative markup} %useful if writing up subchapters or questions, will not update the TOC, although this can be done manually. I am not going into is as I have no intention on doing so in this iteration.
+\section{Alternative markup} %useful if writing up subchapters or questions, will not update the TOC, alghou this can be done manually. I am not going into is as I have no intention on doing so in this iteration.
 
 \begin{enumerate}
 	\item Arabic
 	\item Arabic
-	\begin{enumerate}[(a)]% square brackets define the itemlist type and format, this example includes brackets
+	\begin{enumerate}[(a)]% square brackets define the itemlist type and format this example includes brackets
 		\item Alpha
 			\begin{enumerate}[(i)]
 				\item Roman
@@ -375,9 +377,7 @@ Col 4d & Col 4d & Col 3d \\
 	\item next arabic
 \end{enumerate}
 
-N.B. this does not create a Table Of Contents, you would need to use "section" to build this out, additionally the enumerate value will overide the count see difference between the first and second example. 
-%use the following command to build in skipped line
-\vspace{\baselineskip}
+N.B. this does not create a Table Of Contents, you would need to use "section" to build this out, additionally the enumerate value will overide the count see difference between the first and second example. \vspace{\baselineskip}
 
 The counter will not be printed warnings refer to the enumerate value being specified.
 \clearpage
@@ -405,6 +405,11 @@ Gradient = {\Large $\frac{rise}{run} = \frac{y_2-y_1}{x_2-x_1}$}
 
 $$ abc $$
 
+Superscripts and subscripts
+
+$$1011_{2} = 11_{10}$$
+$$x^a \times x^b = x^{ab}$$
+
 \subsubsection{Maths symbols}
 Source @online{•,
 author = {Wal­ter Sch­midt},
@@ -423,6 +428,68 @@ OPTurldate = {23/03/2019},
 	\item $\ohm$
 	\item The sum of a triangle is 180$^{\circ}$
 \end{enumerate}
+
+\begin{figure}
+
+\begin{tikzpicture}[thick]
+\coordinate (O) at (0,0);
+\coordinate (A) at (4,0);
+\coordinate (B) at (0,2);
+\draw (O)--(A)--(B)--cycle;
+
+\tkzLabelSegment[below=2pt](O,A){\textit{adjacent leg}}
+\tkzLabelSegment[left=2pt](O,B){\textit{opposite leg}}
+\tkzLabelSegment[above right=2pt](A,B){\textit{hypotenuse}}
+
+\tkzMarkAngle[fill= orange,size=0.65cm,%
+opacity=.4](A,O,B)
+\tkzLabelAngle[pos = 0.35](A,O,B){$\gamma$}
+
+\tkzMarkAngle[fill= orange,size=0.8cm,%
+opacity=.4](B,A,O)
+\tkzLabelAngle[pos = 0.6](B,A,O){$\alpha$}
+
+\tkzMarkAngle[fill= orange,size=0.7cm,%
+opacity=.4](O,B,A)
+\tkzLabelAngle[pos = 0.5](O,B,A){$\beta$}
+
+\end{tikzpicture}
+
+\caption{Drawing a triangle}
+\end{figure}
+
+Alternate
+\begin{figure}
+
+\begin{tikzpicture}[thick]
+\coordinate (O) at (0,0);
+\coordinate (A) at (4,0);
+\coordinate (B) at (0,2);
+\draw (O)--(A)--(B)--cycle;
+
+\tkzLabelSegment[below=2pt](O,A){\textit{adjacent leg}}
+\tkzLabelSegment[left=2pt](O,B){\textit{opposite leg}}
+\tkzLabelSegment[above right=2pt](A,B){\textit{hypotenuse}}
+
+%\tkzMarkAngle[fill= orange,size=0.65cm,%
+%opacity=.4](A,O,B)
+%\tkzLabelAngle[pos = 0.35](A,O,B){$\gamma$}
+
+\tkzMarkRightAngle[draw=black,size=.5](A,O,B);
+\tkzLabelAngle[dist=.3](A,O,B){$\gamma$};
+
+\tkzMarkAngle[fill= orange,size=0.8cm,%
+opacity=.4](B,A,O)
+\tkzLabelAngle[pos = 0.6](B,A,O){$\alpha$}
+
+\tkzMarkAngle[fill= orange,size=0.7cm,%
+opacity=.4](O,B,A)
+\tkzLabelAngle[pos = 0.5](O,B,A){$\beta$}
+
+\end{tikzpicture}
+
+\caption{Drawing a triangle}
+\end{figure}
 
 \paragraph{This can be used to make bolded headers} \mbox{} %use this to give you a line break if required%
 
